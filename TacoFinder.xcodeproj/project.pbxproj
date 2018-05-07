@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C121EDED1E8F24A900A296EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121EDEC1E8F24A900A296EE /* AppDelegate.swift */; };
+		C121EDEF1E8F24A900A296EE /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121EDEE1E8F24A900A296EE /* MainMenuVC.swift */; };
+		C121EDF21E8F24A900A296EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C121EDF01E8F24A900A296EE /* Main.storyboard */; };
+		C121EDF51E8F24A900A296EE /* TacoFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C121EDF31E8F24A900A296EE /* TacoFinder.xcdatamodeld */; };
+		C121EDF71E8F24A900A296EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C121EDF61E8F24A900A296EE /* Assets.xcassets */; };
+		C121EDFA1E8F24A900A296EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C121EDF81E8F24A900A296EE /* LaunchScreen.storyboard */; };
+		C121EE051E8F329100A296EE /* CustomSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121EE041E8F329100A296EE /* CustomSearchVC.swift */; };
+		C121EE091E8F3B4000A296EE /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121EE081E8F3B4000A296EE /* MapVC.swift */; };
+		C121EE0C1E8F3CFB00A296EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C121EE0B1E8F3CFB00A296EE /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C16C15CE1E947AF100F5A8EF /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C15CD1E947AF100F5A8EF /* DetailVC.swift */; };
+		C19A90021EB15AE300A5A95C /* custom.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A8FFE1EB15AE300A5A95C /* custom.png */; };
+		C19A90031EB15AE300A5A95C /* donernear.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A8FFF1EB15AE300A5A95C /* donernear.png */; };
+		C19A90041EB15AE300A5A95C /* launchright.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A90001EB15AE300A5A95C /* launchright.png */; };
+		C19A90051EB15AE300A5A95C /* lightBlueBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A90011EB15AE300A5A95C /* lightBlueBtn.png */; };
+		C19A90091EB15C0600A5A95C /* 640960.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A90081EB15C0600A5A95C /* 640960.png */; };
+		C19A900B1EB15C0900A5A95C /* 6401136.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A900A1EB15C0900A5A95C /* 6401136.png */; };
+		C19A900F1EB15C1300A5A95C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A900E1EB15C1300A5A95C /* Default-568h@2x.png */; };
+		C19A90111EB15C8900A5A95C /* 12422208.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A90101EB15C8900A5A95C /* 12422208.png */; };
+		C19A90131EB15CB000A5A95C /* 320480.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A90121EB15CB000A5A95C /* 320480.png */; };
+		C19A90171EB15D1900A5A95C /* 750.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A90161EB15D1900A5A95C /* 750.png */; };
+		C19A90191EB15D5400A5A95C /* 2208.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A90181EB15D5400A5A95C /* 2208.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C121EDE91E8F24A900A296EE /* TacoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C121EDEC1E8F24A900A296EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C121EDEE1E8F24A900A296EE /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		C121EDF11E8F24A900A296EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C121EDF41E8F24A900A296EE /* TacoFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TacoFinder.xcdatamodel; sourceTree = "<group>"; };
+		C121EDF61E8F24A900A296EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C121EDF91E8F24A900A296EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C121EDFB1E8F24A900A296EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C121EE041E8F329100A296EE /* CustomSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchVC.swift; sourceTree = "<group>"; };
+		C121EE081E8F3B4000A296EE /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		C121EE0B1E8F3CFB00A296EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C16C15CD1E947AF100F5A8EF /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		C19A8FFE1EB15AE300A5A95C /* custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom.png; sourceTree = "<group>"; };
+		C19A8FFF1EB15AE300A5A95C /* donernear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donernear.png; sourceTree = "<group>"; };
+		C19A90001EB15AE300A5A95C /* launchright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchright.png; sourceTree = "<group>"; };
+		C19A90011EB15AE300A5A95C /* lightBlueBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightBlueBtn.png; sourceTree = "<group>"; };
+		C19A90081EB15C0600A5A95C /* 640960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640960.png; sourceTree = "<group>"; };
+		C19A900A1EB15C0900A5A95C /* 6401136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6401136.png; sourceTree = "<group>"; };
+		C19A900E1EB15C1300A5A95C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C19A90101EB15C8900A5A95C /* 12422208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12422208.png; sourceTree = "<group>"; };
+		C19A90121EB15CB000A5A95C /* 320480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 320480.png; sourceTree = "<group>"; };
+		C19A90161EB15D1900A5A95C /* 750.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 750.png; sourceTree = "<group>"; };
+		C19A90181EB15D5400A5A95C /* 2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2208.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C121EDE61E8F24A900A296EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C121EE0C1E8F3CFB00A296EE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C121CD5E1E971B3100C92781 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C19A90121EB15CB000A5A95C /* 320480.png */,
+				C19A90081EB15C0600A5A95C /* 640960.png */,
+				C19A90161EB15D1900A5A95C /* 750.png */,
+				C19A90181EB15D5400A5A95C /* 2208.png */,
+				C19A90101EB15C8900A5A95C /* 12422208.png */,
+				C19A900A1EB15C0900A5A95C /* 6401136.png */,
+				C19A900E1EB15C1300A5A95C /* Default-568h@2x.png */,
+				C19A8FFE1EB15AE300A5A95C /* custom.png */,
+				C19A8FFF1EB15AE300A5A95C /* donernear.png */,
+				C19A90001EB15AE300A5A95C /* launchright.png */,
+				C19A90011EB15AE300A5A95C /* lightBlueBtn.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C121EDE01E8F24A900A296EE = {
+			isa = PBXGroup;
+			children = (
+				C121EDEB1E8F24A900A296EE /* TacoFinder */,
+				C121EDEA1E8F24A900A296EE /* Products */,
+				C121EE0A1E8F3CFB00A296EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C121EDEA1E8F24A900A296EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C121EDE91E8F24A900A296EE /* TacoFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C121EDEB1E8F24A900A296EE /* TacoFinder */ = {
+			isa = PBXGroup;
+			children = (
+				C121EDEC1E8F24A900A296EE /* AppDelegate.swift */,
+				C121EDEE1E8F24A900A296EE /* MainMenuVC.swift */,
+				C121EE081E8F3B4000A296EE /* MapVC.swift */,
+				C121EE041E8F329100A296EE /* CustomSearchVC.swift */,
+				C16C15CD1E947AF100F5A8EF /* DetailVC.swift */,
+				C121EDF01E8F24A900A296EE /* Main.storyboard */,
+				C121EDF61E8F24A900A296EE /* Assets.xcassets */,
+				C121CD5E1E971B3100C92781 /* Images */,
+				C121EDF81E8F24A900A296EE /* LaunchScreen.storyboard */,
+				C121EDFB1E8F24A900A296EE /* Info.plist */,
+				C121EDF31E8F24A900A296EE /* TacoFinder.xcdatamodeld */,
+			);
+			path = TacoFinder;
+			sourceTree = "<group>";
+		};
+		C121EE0A1E8F3CFB00A296EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C121EE0B1E8F3CFB00A296EE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C121EDE81E8F24A900A296EE /* TacoFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C121EDFE1E8F24A900A296EE /* Build configuration list for PBXNativeTarget "TacoFinder" */;
+			buildPhases = (
+				C121EDE51E8F24A900A296EE /* Sources */,
+				C121EDE61E8F24A900A296EE /* Frameworks */,
+				C121EDE71E8F24A900A296EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TacoFinder;
+			productName = TacoFinder;
+			productReference = C121EDE91E8F24A900A296EE /* TacoFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C121EDE11E8F24A900A296EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Marta Krawiec";
+				TargetAttributes = {
+					C121EDE81E8F24A900A296EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2H7959C39W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C121EDE41E8F24A900A296EE /* Build configuration list for PBXProject "TacoFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C121EDE01E8F24A900A296EE;
+			productRefGroup = C121EDEA1E8F24A900A296EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C121EDE81E8F24A900A296EE /* TacoFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C121EDE71E8F24A900A296EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A90051EB15AE300A5A95C /* lightBlueBtn.png in Resources */,
+				C19A90031EB15AE300A5A95C /* donernear.png in Resources */,
+				C19A90041EB15AE300A5A95C /* launchright.png in Resources */,
+				C19A90021EB15AE300A5A95C /* custom.png in Resources */,
+				C19A90091EB15C0600A5A95C /* 640960.png in Resources */,
+				C19A900F1EB15C1300A5A95C /* Default-568h@2x.png in Resources */,
+				C19A90131EB15CB000A5A95C /* 320480.png in Resources */,
+				C19A90191EB15D5400A5A95C /* 2208.png in Resources */,
+				C121EDFA1E8F24A900A296EE /* LaunchScreen.storyboard in Resources */,
+				C19A90171EB15D1900A5A95C /* 750.png in Resources */,
+				C121EDF71E8F24A900A296EE /* Assets.xcassets in Resources */,
+				C19A90111EB15C8900A5A95C /* 12422208.png in Resources */,
+				C19A900B1EB15C0900A5A95C /* 6401136.png in Resources */,
+				C121EDF21E8F24A900A296EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C121EDE51E8F24A900A296EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C121EE091E8F3B4000A296EE /* MapVC.swift in Sources */,
+				C121EDEF1E8F24A900A296EE /* MainMenuVC.swift in Sources */,
+				C121EE051E8F329100A296EE /* CustomSearchVC.swift in Sources */,
+				C16C15CE1E947AF100F5A8EF /* DetailVC.swift in Sources */,
+				C121EDED1E8F24A900A296EE /* AppDelegate.swift in Sources */,
+				C121EDF51E8F24A900A296EE /* TacoFinder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C121EDF01E8F24A900A296EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C121EDF11E8F24A900A296EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C121EDF81E8F24A900A296EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C121EDF91E8F24A900A296EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C121EDFC1E8F24A900A296EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C121EDFD1E8F24A900A296EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C121EDFF1E8F24A900A296EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2H7959C39W;
+				INFOPLIST_FILE = TacoFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkrawiec.TacoFinder2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C121EE001E8F24A900A296EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2H7959C39W;
+				INFOPLIST_FILE = TacoFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkrawiec.TacoFinder2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C121EDE41E8F24A900A296EE /* Build configuration list for PBXProject "TacoFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C121EDFC1E8F24A900A296EE /* Debug */,
+				C121EDFD1E8F24A900A296EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C121EDFE1E8F24A900A296EE /* Build configuration list for PBXNativeTarget "TacoFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C121EDFF1E8F24A900A296EE /* Debug */,
+				C121EE001E8F24A900A296EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C121EDF31E8F24A900A296EE /* TacoFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C121EDF41E8F24A900A296EE /* TacoFinder.xcdatamodel */,
+			);
+			currentVersion = C121EDF41E8F24A900A296EE /* TacoFinder.xcdatamodel */;
+			path = TacoFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C121EDE11E8F24A900A296EE /* Project object */;
+}
